@@ -5,6 +5,11 @@ import os
 #load config
 load_dotenv()
 BOT_TOKEN = os.getenv('BOT_TOKEN')
+SERVER_ID = os.getenv('SERVER_ID')
+ADMIN_ROLE = os.getenv('ADMIN_ROLE')
+OFFICER_ROLE = os.getenv('OFFICER_ROLE')
+KNIGHT_ROLE = os.getenv('KNIGHT_ROLE')
+RECRUIT_ROLE = os.getenv('RECRUIT_ROLE')
 # sql server connection details
 
 #connect to discord
