@@ -6,6 +6,7 @@ import os
 load_dotenv()
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 SERVER_ID = os.getenv('SERVER_ID')
+TEST_SERVER_ID = os.getenv('TEST_SERVER_ID')
 ADMIN_ROLE = os.getenv('ADMIN_ROLE')
 OFFICER_ROLE = os.getenv('OFFICER_ROLE')
 KNIGHT_ROLE = os.getenv('KNIGHT_ROLE')
