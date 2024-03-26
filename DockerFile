@@ -1,0 +1,7 @@
+FROM python:3.12
+
+ADD knightly.py .
+
+RUN pip install discord dotenv os
+
+CMD ["python", "./knightly.py"]
